@@ -1,0 +1,179 @@
+.connectContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.firstCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 120px;
+}
+
+.firstCardRow2 {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  width: 45%;
+}
+
+.firstCardImgDiv {
+  width: 45%;
+}
+
+.firstCardRow2 > label {
+  width: 493px;
+  height: 164px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.mainCircleCheckDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.circleCheckDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 24px;
+}
+
+.circleCheckDiv > p {
+  width: 387px;
+  height: 37px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.firstCardRow2 > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 60px;
+  background: #0a2640;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  margin-top: 60px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.secondCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.secondCardRow1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 60px;
+  align-items: flex-start;
+  width: 45%;
+}
+
+.secondCardImgDiv {
+  width: 45%;
+}
+
+.secondCardRow1 > label {
+  width: 493px;
+  height: 164px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.pinDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 22px;
+  margin-top: 64px;
+  width: 500px;
+  height: 68px;
+  background: #0a2640;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.pinDiv > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.eyeDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-top: 24px;
+  padding-left: 22px;
+}
+
+.eyeDiv > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}

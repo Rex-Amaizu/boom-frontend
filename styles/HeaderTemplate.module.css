@@ -1,0 +1,133 @@
+.hContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: transparent;
+  position: absolute;
+  top: 15%;
+  height: auto;
+  z-index: 10;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.leftDiv > label {
+  width: 601px;
+  height: 140px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.leftDiv > p {
+  width: 601px;
+  height: 64px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.template > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 247px;
+  height: 60px;
+  background: #0a2640;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 187px;
+  height: 60px;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #0a2640;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
+}
+
+.secondDivRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: 25px; */
+  width: 500px;
+}
+
+.logoDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 95px;
+}

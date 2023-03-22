@@ -1,0 +1,75 @@
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+.secondCol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 56px;
+  width: 92%;
+}
+
+.secondCol > label {
+  width: 500px;
+  height: 164px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.secondColRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.colRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.colRow > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.lineDiv {
+  margin-top: 16px;
+}
+
+.colRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.colRow2 > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}

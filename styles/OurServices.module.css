@@ -1,0 +1,79 @@
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 926px;
+  background: #0a2640;
+  padding-top: 80px;
+}
+
+.serviceContainer > label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+}
+
+.serviceContainer > p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  width: 842px;
+}
+
+.exploreDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 70px;
+  height: auto;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardDiv > h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.explorePage {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  width: 164px;
+  height: 36px;
+  margin-top: 28px;
+}
+
+.explorePage > h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}

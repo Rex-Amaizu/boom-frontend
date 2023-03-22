@@ -1,0 +1,69 @@
+.enterpriseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 391px;
+  align-items: center;
+  background: #0a2640;
+  border-radius: 12px;
+}
+
+.enterpriseContainer > label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  width: 50%;
+  margin-top: 70px;
+}
+
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.rowDiv > input {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 240px;
+  padding-left: 32px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+
+  color: #000000;
+}
+
+.rowDiv > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #65e4a3;
+  border: 2px solid #65e4a3;
+  border-radius: 56px;
+  height: 60px;
+  width: 210px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #0a2640;
+}

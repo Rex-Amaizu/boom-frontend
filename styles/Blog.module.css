@@ -1,0 +1,125 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin-bottom: 80px;
+  margin-top: 130px;
+}
+
+.blogContainer > label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #777777;
+}
+
+.blogContainer > p {
+  width: 842px;
+  margin-top: 12px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  margin-top: 70px;
+}
+
+.blogContainer > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 219px;
+  height: 60px;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  margin-top: 60px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #0a2640;
+}
+
+.blogCard {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.category {
+  width: 231px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.category > label {
+  width: 72px;
+  height: 28px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0a2640;
+}
+
+.category > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.blogCard > h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  width: 300px;
+  margin-top: 12px;
+}
+
+.blogCardUser {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.blogCardUser > h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}

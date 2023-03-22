@@ -1,0 +1,92 @@
+.navContainer {
+  width: 90%;
+  height: auto;
+  background-color: transparent;
+  /* position: fixed; */
+  z-index: 10;
+}
+
+.body {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  height: auto;
+}
+
+.hamburgerDiv {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  height: auto;
+}
+
+.hamburger {
+  visibility: hidden;
+}
+
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+}
+
+.linksDiv > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 291px;
+}
+
+.linksDiv > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 40px;
+  border: 2px solid #0a2640;
+  border-radius: 24px;
+}
+
+@media (max-width: 600px) {
+  .navContainer {
+    width: 85%;
+  }
+
+  .body {
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .hamburger {
+    visibility: visible;
+    right: 0%;
+  }
+  .hamburgerDiv {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+  }
+
+  .linksDiv {
+    flex-direction: column;
+    width: 140px;
+    height: 260px;
+    align-self: flex-end;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .linksDiv > ul {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 130px;
+  }
+}
