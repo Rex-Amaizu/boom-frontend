@@ -1,0 +1,342 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  width: 100%;
+  height: 800px;
+  border-radius: 8px;
+}
+
+.container > label {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.completePay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  box-shadow: -2.2px -4.48px 30px rgba(118, 131, 150, 0.1);
+  margin-top: 20px;
+  padding-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
+  padding-bottom: 40px;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.headerDiv > h1 {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #65e4a3;
+}
+
+.amountDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  width: 95%;
+  background-color: #0a2640;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.amountDiv > p {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.addressDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 95%;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.addressDiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 49%;
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addressDiv1 > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.copyDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.copyDiv > h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.addressDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 49%;
+  border-radius: 8px;
+  border: 2px solid #f2f2f2;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addressDiv2 > h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.addressDiv2 > p {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8c8c8c;
+  margin-top: 20px;
+}
+
+.instructionDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffc266;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.instructionDiv > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.amountSmallDiv {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.amountSmallDiv > h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.amountSmallDiv > h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  width: 60%;
+  margin-top: 40px;
+}
+
+.loader {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 1rem solid lightgray;
+  border-top: 1rem solid #65e4a3;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1280px) {
+  .copyDiv > h4 {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 1015px) {
+  .buttonDiv {
+    width: 80%;
+  }
+  .copyDiv > h4 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 925px) {
+  .copyDiv > h4 {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 890px) {
+  .instructionDiv > p {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .buttonDiv {
+    width: 85%;
+  }
+}
+
+@media (max-width: 820px) {
+  .buttonDiv {
+    width: 90%;
+  }
+}
+
+@media (max-width: 820px) {
+  .buttonDiv {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .buttonDiv {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buttonDiv {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .addressDiv {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+    gap: 20px;
+  }
+
+  .addressDiv1 {
+    width: 80%;
+    height: auto;
+  }
+
+  .addressDiv2 {
+    width: 80%;
+    height: auto;
+  }
+
+  .buttonDiv {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .copyDiv {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .copyDiv > h4 {
+    font-size: 6px;
+  }
+
+  .amountDiv > p {
+    font-size: 12px;
+  }
+
+  .addressDiv2 > h5 {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .addressDiv2 > p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .instructionDiv > p {
+    line-height: 10px;
+  }
+}

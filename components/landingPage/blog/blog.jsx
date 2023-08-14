@@ -10,49 +10,41 @@ import styles from "../../../styles/Blog.module.css";
 
 const blogCardData = [
   {
-    category: "category",
-    date: "November 22, 2021",
-    desc: "Pitch termsheet backing validation focus release.",
-    user: "Chandler Bing",
+    category: "Create and verify Boom Trade account",
+    desc: "Click on the sign up or get started button to register.",
     headerImg: WalkAnimeImg,
-    userImg: User1Img,
   },
   {
-    category: "category",
-    date: "November 22, 2021",
-    desc: "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
-    user: "Rachel Green",
+    category: "Make USDT Deposit",
+    desc: "Go to deposit, copy the wallet address generated and do your deposit.",
     headerImg: LadyImg,
-    userImg: User2Img,
   },
   {
-    category: "category",
-    date: "November 22, 2021",
-    desc: "Beta prototype sales iPad gen-z marketing network effects value proposition",
-    user: "Monica Geller",
+    category: "System starts trading",
+    desc: "The system will trade automatically for you 24/7.",
     headerImg: TrollyImg,
-    userImg: User3Img,
   },
 ];
 
-const blog = () => {
+const blog = ({ openModal }) => {
   return (
     <div className={styles.blogContainer}>
-      <label>Blog</label>
-      <p>Value proposition accelerator product management venture</p>
+      <label>How It Works</label>
+      <p>
+        Take the following steps to start your investment journey with Boom
+        Trade
+      </p>
       <div className={styles.rowDiv}>
         {blogCardData.map((cardItems) => (
           <BlogCard
+            key={cardItems.category}
             category={cardItems.category}
-            date={cardItems.date}
             desc={cardItems.desc}
-            user={cardItems.user}
             headerImg={cardItems.headerImg}
-            userImg={cardItems.userImg}
           />
         ))}
       </div>
-      <button>Load more</button>
+      <button onClick={openModal}>Get Started</button>
     </div>
   );
 };

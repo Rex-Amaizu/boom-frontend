@@ -4,11 +4,19 @@ import styles from "../../styles/EnterpriseTemplate.module.css";
 const enterpriseTemplate = () => {
   return (
     <div className={styles.enterpriseContainer}>
-      <label>An enterprise template to ramp up your company website</label>
+      <label>Get In Touch</label>
       <div className={styles.rowDiv}>
-        <input placeholder="your email address" />
-        <button>start now</button>
+        <input placeholder="Full Name" />
+        <input placeholder="Email Address" />
       </div>
+      <div className={styles.rowDiv}>
+        <input placeholder="Phone Number" />
+        <input placeholder="Subject" />
+      </div>
+      <div className={styles.msgDiv}>
+        <input placeholder="Message" />
+      </div>
+      <button>Send</button>
     </div>
   );
 };

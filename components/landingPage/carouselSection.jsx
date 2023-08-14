@@ -11,7 +11,7 @@ const slides = [
   {
     id: 0,
     labelText:
-      "Buyer buzz partner network disruptive non-disclosure agreement business",
+      "This is a realistic program for anyone looking for a website to invest in digital assets.",
     userImg: User1Img,
     userName: "Albus Dumbledore",
     userJob: "Manager @ Howarts",
@@ -19,17 +19,17 @@ const slides = [
   {
     id: 1,
     labelText:
-      "Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.",
+      "My family and me want to thank you for helping us find a great opportunity to make money online.",
     userImg: User2Img,
     userName: "Severus Snape",
-    userJob: "Manager @ Slytherin",
+    userJob: "Director @ Slytherin",
   },
   {
     id: 2,
     labelText:
-      "Release facebook responsive web design business model canvas seed money monetization.",
+      "Portfolio doubled in litte over a year. You should not expect anything less. Excellent customer service!.",
     userImg: User3Img,
-    userName: "Harry Potter",
+    userName: "Janice Potter",
     userJob: "Team Leader @ Gryffindor",
   },
 ];
@@ -71,7 +71,7 @@ const carouselSection = () => {
   };
   return (
     <div className={styles.carouselContainer}>
-      <label>An enterprise template to ramp up your company website</label>
+      <label>Testimonials</label>
       <div className={styles.carouselArrows}>
         <Image
           onClick={prev}

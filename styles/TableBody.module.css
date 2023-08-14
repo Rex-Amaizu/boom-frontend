@@ -1,0 +1,31 @@
+.tableWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: #ffffff;
+}
+
+.rowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 60px;
+  border: 1px solid #8c8c8c;
+}
+
+.rowDiv > label {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+@media (max-width: 500px) {
+  .rowDiv > label {
+    font-size: 10px;
+  }
+}

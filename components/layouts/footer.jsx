@@ -10,35 +10,40 @@ const footer = () => {
         <div className={styles.logoRow}>
           <Image src={LogoImg} alt="logo" />
           <p>
-            Social media validation business model canvas graphical user
-            interface launch party creative facebook iPad twitter.
+            Boom Trade is a digital currency trading platform that uses
+            high-frequency trading and algorithms to automatically buy digital
+            currencies at low prices and sell them at higher prices to generate
+            returns.
           </p>
           <h4>All rights reserved.</h4>
         </div>
-        <div className={styles.landingsRow}>
-          <label>Landings</label>
-          <div className={styles.landingsRowDiv}>
-            <p>Home</p>
-            <p>Products</p>
-            <p>Services</p>
+        <div className={styles.secondFooterDiv}>
+          <div className={styles.landingsRow}>
+            <label>Company</label>
+            <div className={styles.landingsRowDiv}>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>How It Works</p>
+              <p>Investment Plan</p>
+            </div>
+          </div>
+          <div className={styles.landingsRow}>
+            <label>Useful Links</label>
+            <div className={styles.landingsRowDiv}>
+              <p>FAQ</p>
+              <p>Contact Us</p>
+              <p>Services</p>
+            </div>
           </div>
         </div>
-        <div className={styles.landingsRow}>
-          <label>Company</label>
-          <div className={styles.landingsRowDiv}>
-            <p>Home</p>
-            <p>Career</p>
-            <p>Services</p>
-          </div>
-        </div>
-        <div className={styles.landingsRow}>
+        {/* <div className={styles.landingsRow}>
           <label>Resources</label>
           <div className={styles.landingsRowDiv}>
             <p>Blog</p>
             <p>Products</p>
             <p>Services</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

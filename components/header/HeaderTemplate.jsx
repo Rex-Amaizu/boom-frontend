@@ -6,44 +6,47 @@ import RectangularRateCardImg from "../../public/assets/images/boldo/rectangular
 import PrestoLogoImg from "../../public/assets/images/boldo/prestoLogo.svg";
 import LogoImg from "../../public/assets/images/boldo/Logo.svg";
 import styles from "../../styles/HeaderTemplate.module.css";
+import { useMedia } from "../../hooks/useResponsive";
 
 const imgStyles = { marginBottom: "25px" };
 
-const HeaderTemplate = () => {
+const HeaderTemplate = ({ open }) => {
+  const bigTablet = useMedia("(max-width: 970px)");
+  const mobile = useMedia("(max-width: 620px)");
   return (
     <div className={styles.hContainer}>
       <div className={styles.mainBody}>
         <div className={styles.leftDiv}>
-          <label>Save time by building fast with Boldo Template </label>
+          <label>Best Trading Investment Platform.</label>
           <p>
-            Funding handshake buyer business-to-business metrics iPad
-            partnership. First mover advantage innovator success deployment
-            non-disclosure.
+            The easiest way to invest in cryptocurrency. No trading skills
+            required. Safer, faster and easier than ever before.
           </p>
           <div className={styles.buttonDiv}>
             <div className={styles.template}>
-              <button>Buy template</button>
+              <button onClick={open}>Get Started</button>
             </div>
             <div className={styles.explore}>
-              <button>Explore</button>
+              <button onClick={open}>Login</button>
             </div>
           </div>
         </div>
         <div className={styles.rightDiv}>
           <Image src={RateCardImg} alt="rate card" style={imgStyles} />
           <div className={styles.secondDivRight}>
-            <Image src={SquareCardImg} alt="SQ rate card" />
-            <Image src={RectangularRateCardImg} alt="Rec rate card" />
+            {mobile ? null : <Image src={SquareCardImg} alt="SQ rate card" />}
+            {mobile ? null : (
+              <Image src={RectangularRateCardImg} alt="Rec rate card" />
+            )}
           </div>
         </div>
       </div>
       <div className={styles.logoDiv}>
         <Image src={LogoImg} alt="logo" />
-        <Image src={PrestoLogoImg} alt="presto rate card" />
-        <Image src={LogoImg} alt="logo" />
-        <Image src={PrestoLogoImg} alt="presto rate card" />
-        <Image src={LogoImg} alt="logo" />
-        <Image src={PrestoLogoImg} alt="presto rate card" />
+
+        {mobile ? null : <Image src={LogoImg} alt="logo" />}
+
+        {bigTablet ? null : <Image src={LogoImg} alt="logo" />}
       </div>
     </div>
   );

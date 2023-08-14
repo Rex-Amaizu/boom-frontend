@@ -8,7 +8,7 @@ import LogoImg from "../../public/assets/images/boldo/Logo.svg";
 
 const iconStyle = { cursor: "pointer", width: "50px", height: "50px" };
 
-function NavBar() {
+function NavBar({ open }) {
   const [navbar, setNavbar] = useState(false);
   const mobileDevice = useMedia("(max-width: 600px)");
 
@@ -31,16 +31,39 @@ function NavBar() {
             <div className={styles.linksDiv}>
               <ul>
                 <li>
-                  <Link href="">Products</Link>
+                  <Link href="">
+                    <b>Home</b>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="">Services</Link>
+                  <Link href="">
+                    <b>About Us</b>
+                  </Link>
                 </li>
                 <li>
-                  <Link href="">About</Link>
+                  <Link href="">
+                    <b>How It Works</b>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="">
+                    <b>Investment Plan</b>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="">
+                    <b>FAQ</b>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="">
+                    <b>Contact</b>
+                  </Link>
                 </li>
               </ul>
-              <button>Log in</button>
+              <button onClick={open}>
+                <b>Sign up/Log in</b>
+              </button>
             </div>
           )}
         </div>

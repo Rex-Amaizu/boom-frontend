@@ -1,0 +1,10 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 505px;
+  background-color: #f2f2f2;
+  box-shadow: -2.2px -4.48px 30px rgba(118, 131, 150, 0.1);
+  height: 300px;
+}

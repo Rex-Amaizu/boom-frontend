@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.container > label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 56px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-top: 50px;
+  color: #00b386;
+}
+
+.container > h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.cardContainer {
+  margin-top: 50px;
+  height: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 10px 10px 10px 10px #f2f2f2;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.cardContainer > label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.cardContainer > h6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  margin-top: 20px;
+  color: #808080;
+}
+
+.roiDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.roiDiv > h5 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 26px;
+  display: flex;
+  color: #000000;
+}
+
+.roiDiv > h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  color: #808080;
+  margin-top: 5px;
+}
+
+.cardContainer > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background: #00b386;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 30px;
+  border-radius: 32px;
+  margin-bottom: 20px;
+}
+
+.plans {
+  display: flex;
+  flex: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+  .container > h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container > h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container > h1 {
+    font-size: 14px;
+  }
+
+  .container > label {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+    color: #00b386;
+  }
+
+  .cardContainer {
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .cardContainer > label {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  .cardContainer > h6 {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 15px;
+  }
+}

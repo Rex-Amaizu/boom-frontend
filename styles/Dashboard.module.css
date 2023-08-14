@@ -1,0 +1,174 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.mainMenuWrap {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 200px;
+  height: 100%;
+  background: #0a2640;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 40px;
+  padding-top: 80px;
+  position: fixed;
+  /* top: 0; */
+  left: 0;
+}
+
+/* .hamburgerDiv {
+  height: 60px;
+  width: 100px;
+  display: flex;
+} */
+
+.hamburger {
+  display: flex;
+}
+
+.linkDiv > span {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.linkDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.linkDiv:hover {
+  margin-left: 5px;
+}
+
+.linkDiv > span:hover {
+  color: #65e4a3;
+}
+
+.bodyWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-left: 200px;
+}
+.lineDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #0a2640;
+}
+.dashboardWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 30px;
+  /*background-color: #f2f2f2; */
+}
+
+.loaderDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 30px;
+  /* background-color: #f2f2f2; */
+}
+
+.loaderDiv > h6 {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #65e4a3;
+}
+
+.bodyDiv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.bodyDiv2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.tableDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  /* .hamburgerDiv {
+    height: auto;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+  } */
+
+  .menuWrapper {
+    position: relative;
+  }
+
+  .bodyWrapper {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 390px) {
+}

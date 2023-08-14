@@ -1,0 +1,57 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 320px;
+  background-color: #65e4a3;
+  border-radius: 12px;
+  box-shadow: -2.2px -4.48px 30px rgba(118, 131, 150, 0.1);
+  padding: 20px;
+}
+
+.priceDiv {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.price > label {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.price > p {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.cardWrapper > h1 {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.cardWrapper > h2 {
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  font-style: italic;
+}

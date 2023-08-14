@@ -16,9 +16,17 @@
   height: 400px;
 }
 
+.secondFooterDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+}
+
 .logoRow {
   display: flex;
   flex-direction: column;
+  width: 55%;
 }
 
 .logoRow > p {
@@ -43,7 +51,7 @@
   display: flex;
   align-items: center;
   color: #777777;
-  margin-top: 64px;
+  margin-top: 24px;
 }
 
 .landingsRow {
@@ -77,5 +85,117 @@
   display: flex;
   align-items: center;
   color: #777777;
-  margin-top: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .footerContainer {
+    height: auto;
+    margin-top: 64px;
+    padding-bottom: 50px;
+  }
+
+  .mainFooterBody {
+    height: auto;
+  }
+
+  .logoRow > p {
+    font-size: 12px;
+    margin-top: 45px;
+    width: 250px;
+  }
+
+  .logoRow > h4 {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .landingsRow > label {
+    font-size: 16px;
+  }
+
+  .landingsRowDiv > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 540px) {
+  .mainFooterBody {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .secondFooterDiv {
+    align-items: center;
+    width: 100%;
+  }
+
+  .logoRow > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-top: 45px;
+    width: 300px;
+  }
+
+  .logoRow > h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-top: 24px;
+  }
+
+  .landingsRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landingsRow > label {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+  .landingsRowDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+  }
+
+  .landingsRowDiv > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-top: 10px;
+    cursor: pointer;
+  }
 }
